@@ -10,9 +10,9 @@ load_dotenv()
 
 Bot = Client(
     "Country-Info-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["BOT_TOKEN","5088657122:AAELk-O6R8rYxzqXNvWWRhtl2O0-FNLwHS0"],
+    api_id = int(os.environ["API_ID", "3335796"]),
+    api_hash = os.environ["API_HASH", "138b992a0e672e8346d8439c3f42ea78"]
 )
 
 START_TEXT = """Hello {},
